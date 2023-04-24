@@ -1,0 +1,48 @@
+body {
+    background-color: #FF914C;
+}
+
+img {
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+}
+
+
+
+#imgpos {
+    position: absolute; 
+	left: 90px; /* posiciona a 90px para a esquerda */ 
+	top: 70px; /* posiciona a 70px para baixo */
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 2;
+    background-color:	black;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 97%;
+  
+}
+
+li {
+    float: left;
+    display: inline;
+    padding: 30px ;
+   
+}
+
+li a{
+     text-align: right;
+    color: #FF914C;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+
+
+

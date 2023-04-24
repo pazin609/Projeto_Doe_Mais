@@ -1,0 +1,211 @@
+body {
+    background-color: #FF914C;
+}
+
+#imgpos {
+	left: 90px; /* posiciona a 90px para a esquerda */ 
+	top: 70px; /* posiciona a 70px para baixo */
+  width: 60px;
+  height: 60px;
+  padding: 10px;
+}
+
+#imgret{
+  width: 450px;
+  height: 400px;
+  margin-left: 90px;
+  margin-right: 70%;
+  margin-top: 120px;
+  position: absolute;
+}
+
+#imgtop{
+  margin-top: 120px;
+  position: absolute;
+  width: 450px;
+  height: 400px;
+  margin-left: 990px;
+  
+}
+
+#imgboc{
+  width: 450px;
+  height: 400px;
+  margin-left: 90px;
+}
+
+#imgcap{
+  width: 450px;
+  height: 400px;
+  margin-left: 460px;
+  position: absolute;
+}
+
+.does{
+  
+  display: inline;
+}
+
+.does2{
+  position: absolute;
+  margin-top: 700px;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 2;
+    background-color:	black;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 97%;
+    z-index: 100;
+  
+}
+
+li {
+    float: left;
+    display: inline;
+    padding: 30px ;
+   
+}
+
+li a{
+     text-align: right;
+    color: #FF914C;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+
+
+
+li a:hover{
+    background-color: #FFDEAD;
+    transition: 0.5s;
+    opacity: 0.7;
+    }
+
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 15px;
+      }
+    
+      .card {
+        background-color: #fff;
+        border: 1px solid #ddd;
+        box-shadow: 0 2px 4px rgba(0,0,0,.1);
+        margin-bottom: 30px;
+        padding: 30px;
+      }
+
+      @media (max-width: 767px) {
+        .card {
+          margin-bottom: 15px;
+          padding: 20px;
+        }
+    }
+
+    /* Estilos do rodapé */
+    footer {
+        background-color: #fc8147;
+        padding: 30px 0;
+        
+      }
+
+      .downRodape{
+        bottom: 0;
+        position: fixed;
+        width: 100%;
+        text-align: center;
+      }
+      
+      footer h3 {
+        font-size: 24px;
+        font-weight: 700;
+        margin-bottom: 20px;
+      }
+      
+      footer p {
+        font-size: 18px;
+        line-height: 1.5;
+        margin-bottom: 20px;
+      }
+      
+      footer cl {
+        list-style: none;
+        padding: 0;
+      }
+      
+      footer lo {
+        display: inline-block;
+        margin-right: 20px;
+      }
+
+      footer lo:hover{
+           transition: 0.5s;
+           opacity: 0.7;
+      }
+      
+      
+      footer a {
+        color: #333;
+        font-size: 18px;
+      }
+  
+      footer h3 {
+        font-size: 20px;
+        margin-bottom: 15px;
+      }
+      
+      footer p {
+        font-size: 16px;
+        margin-bottom: 15px;
+      }
+      
+      footer lo {
+        display: block;
+        margin-bottom: 10px;
+      }
+      
+p{
+  text-align: center;
+}
+
+.ad{
+
+  font-size: 40px;
+  margin-top: -10px;
+  position: absolute;
+  margin-top: 600px;
+  margin-left: 150px;
+}
+
+.nc {
+  font-size: 40px;
+  margin-top: -10px;
+  position: absolute;
+  margin-top: 600px;
+  margin-left: 67%;
+}
+
+  .er{
+    font-size: 40px;
+    margin-top: -40px;
+    position: absolute;
+    margin-top: 1150px;
+    margin-left: 63%;
+  }
+
+  .ads{
+    font-size: 40px;
+    margin-top: -30px;
+    position: absolute;
+    margin-top: 1150px;
+    margin-left: 63%;
+  
+  }
